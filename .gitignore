@@ -1,0 +1,15 @@
+@"
+# Python/Django
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Nested repo you don’t want
+projectdemo/
+"@ | Set-Content .gitignore
